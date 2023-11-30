@@ -10,63 +10,53 @@
     font-display: block;
   }
 
-.shortcut{
+ .shortcut{
     height: 30px;
-    background-color: #f1f1f1;
     line-height: 30px;
-    
-}
+    background-color: #f1f1f1;
+ }
 
-.wrapper{
+ .wrapper{
     width: 1200px;
     margin: 0 auto;
-}
 
-.fl{
+ }
+
+ .fl{
     float: left;
-}
-
-.fr{
+ }
+ .fr{
     float: right;
-
-}
-.style_red{
+ }
+ .style_red{
     color: #c81623;
-}
-
-.style_ml10{
+ }
+.mleft10{
     margin-left: 10px;
 }
-.style_mr10{
-    margin-right: 10px;
+.mright10{
+    margin-left: 10px;
 }
-
-.shortcut .fl ul li{
+ .shortcut  .fl ul li{
     float: left;
-}
-.shortcut .fr ul li{
+ }
+ .shortcut  .fr ul li{
     float: left;
-}
+ }
 
-.shortcut .fr ul li::after{
-    display: inline-block;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 9px;
-    content: "";
+ .shortcut  .fr ul li:nth-child(even){
+    content:"";
     width: 1px;
-    height: 10px;
+    height: 12px;
     background-color: #666666;
-}
-
-.shortcut .fr ul li:last-child::after{
+    margin: 9px 15px 0px;
+ }
+ .shortcut  .fr ul li:last-child{
     width: 0;
-}
+ }
 
-
-
-.arrow_icon::after{
-    margin-left: 10px;
+ .shortcut  .fr ul li a::after{
     content: "\e91e";
     font-family: "icomoon";
-}
+    margin-left: 10px;
+ }
