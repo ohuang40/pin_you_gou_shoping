@@ -52,7 +52,7 @@
     margin: 9px 15px 0px;
  }
  .shortcut  .fr ul li:last-child{
-    width: 0;
+    display: none;
  }
 
  .shortcut  .fr ul li a::after{
@@ -60,3 +60,11 @@
     font-family: "icomoon";
     margin-left: 10px;
  }
+
+
+ /* 头部header start */
+ .header{
+    height: 102px;
+    background-color: pink;
+ }
+ /* 头部header end */
