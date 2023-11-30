@@ -13,6 +13,8 @@
 .shortcut{
     height: 30px;
     background-color: #f1f1f1;
+    line-height: 30px;
+    
 }
 
 .wrapper{
@@ -26,5 +28,45 @@
 
 .fr{
     float: right;
-    
+
+}
+.style_red{
+    color: #c81623;
+}
+
+.style_ml10{
+    margin-left: 10px;
+}
+.style_mr10{
+    margin-right: 10px;
+}
+
+.shortcut .fl ul li{
+    float: left;
+}
+.shortcut .fr ul li{
+    float: left;
+}
+
+.shortcut .fr ul li::after{
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 9px;
+    content: "";
+    width: 1px;
+    height: 10px;
+    background-color: #666666;
+}
+
+.shortcut .fr ul li:last-child::after{
+    width: 0;
+}
+
+
+
+.arrow_icon::after{
+    margin-left: 10px;
+    content: "\e91e";
+    font-family: "icomoon";
 }
