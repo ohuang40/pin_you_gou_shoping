@@ -76,3 +76,31 @@
     margin: 12px 10px 0;
 
 }
+
+
+.header{
+    position: relative;
+    height: 105px;
+    background-color: pink;
+}
+
+.header .logo{
+    position: absolute;
+    left: 0;
+    top: 23px;
+    width: 175px;
+    height: 56px;
+    /* background-color: gray; */
+}
+
+.header .logo a{
+    display: block;
+    /* overflow:hidden; */
+    width: 175px;
+    height: 56px;
+    background-image: url(../images/logo.png);
+    background-size: contain;
+    /* text-indent: -9999px; */
+    font-size: 0;
+
+}
