@@ -169,3 +169,17 @@
     vertical-align: middle;
     margin-left: 15px;
 }
+
+.header .shopcar .count{
+    position:absolute;
+    /* right: 25px; */
+    left: 98px;
+    top: -7px;
+    background-color: #e60012;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 3px;
+    border-radius: 9px 9px 9px 9px;
+    color: #fff;
+
+}
