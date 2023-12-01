@@ -1,13 +1,12 @@
 @font-face {
     font-family: 'icomoon';
-    src:  url('../fonts/icomoon.eot?tomleg');
-    src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
-      url('../fonts/icomoon.ttf?tomleg') format('truetype'),
-      url('../fonts/icomoon.woff?tomleg') format('woff'),
-      url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    src:  url('../fonts/icomoon.eot?3a2xdr');
+    src:  url('../fonts/icomoon.eot?3a2xdr#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?3a2xdr') format('truetype'),
+      url('../fonts/icomoon.woff?3a2xdr') format('woff'),
+      url('../fonts/icomoon.svg?3a2xdr#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
-    font-display: block;
   }
 
   .shortcut{
@@ -142,4 +141,31 @@
 
 .header  .hotwords a:hover{
     color: #b1191a;
+}
+
+.header .shopcar{
+    position:absolute;
+    left: 997px;
+    top: 26px;
+    width: 144px;
+    height: 36px;
+    line-height: 36px;
+    background-color: #f7f7f7;
+    border: 1px solid #dfdfdf;
+}
+
+.header .shopcar .mycar::before{
+    content: "\e93a";
+    font-family: "icomoon";
+    margin: 0 7px 0 18px;
+    color: #d84a4a;
+}
+
+
+.header .shopcar .mycar::after{
+    content: "\e920";
+    font-family:"icomoon";
+    /* line-height: 30px; */
+    vertical-align: middle;
+    margin-left: 15px;
 }
