@@ -104,3 +104,42 @@
     font-size: 0;
 
 }
+
+.header .search{
+    position:absolute;
+    left: 347px;
+    top: 25px;
+}
+.header .search .text{
+    float: left;
+    width: 456px;
+    height: 36px;
+    border: 2px solid #b1191a;
+    /* padding-left: 10px; */
+}
+
+
+.header .search input::placeholder{
+    padding-left: 10px;
+}
+.header .search .btn{
+    float: left;
+    width: 82px;
+    height: 36px;
+    background-color: #b1191a;
+    border: 0;
+}
+
+.header  .hotwords{
+    position:absolute;
+    left: 358px;
+    top: 67px;
+}
+
+.header  .hotwords a{
+    margin: 0 10px;
+}
+
+.header  .hotwords a:hover{
+    color: #b1191a;
+}
