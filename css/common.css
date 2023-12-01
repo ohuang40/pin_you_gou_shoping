@@ -10,61 +10,69 @@
     font-display: block;
   }
 
- .shortcut{
-    height: 30px;
-    line-height: 30px;
+  .shortcut{
+    /* 通栏 不设置宽度 高度34px */
+    height: 34px;
+    line-height: 34px;
     background-color: #f1f1f1;
- }
 
- .wrapper{
+  }
+
+  .w{
+    /* 版心 1200px */
     width: 1200px;
     margin: 0 auto;
+    height: 34px;
+    border: #c81623 solid 1px;
+    }
+    
+.shortcut .fl_left{
+    float:left;
+}
 
- }
+.shortcut .fl_left ul li{
+    float:left;
 
- .fl{
-    float: left;
- }
- .fr{
-    float: right;
- }
- .style_red{
+}
+
+.shortcut .fl_left ul li:first-child{
+    margin-right: 10px;
+}
+.shortcut .fl_left ul li a{
+    margin-left: 14px;
     color: #c81623;
- }
-.mleft10{
-    margin-left: 10px;
 }
-.mright10{
-    margin-left: 10px;
+.shortcut .fl_right{
+    float:right;
 }
- .shortcut  .fl ul li{
-    float: left;
- }
- .shortcut  .fr ul li{
-    float: left;
- }
 
- .shortcut  .fr ul li:nth-child(even){
-    content:"";
+.shortcut .fl_right ul li{
+    float:left;
+
+}
+
+.bottom_arrow_icon::after {
+    content: "\e91e";
+    font-family:"icomoon";
+    margin-left: 10px;
+    
+}
+
+.shortcut .fl_right ul li:last-child{
+    display: none;
+}
+
+.shortcut .fl_right ul li:last-child a{
+    margin-right: 0;
+}
+.shortcut .fl_right ul li:nth-last-child(2) a{
+    margin-right: 0;
+}
+
+.shortcut .fl_right ul li:nth-child(even){
     width: 1px;
     height: 12px;
-    background-color: #666666;
-    margin: 9px 15px 0px;
- }
- .shortcut  .fr ul li:last-child{
-    display: none;
- }
+    background-color: #666;
+    margin: 12px 10px 0;
 
- .shortcut  .fr ul li a::after{
-    content: "\e91e";
-    font-family: "icomoon";
-    margin-left: 10px;
- }
-
-
- /* 头部header start */
- .header{
-    height: 102px;
-    background-color: pink;
- }
- /* 头部header end */
+}
