@@ -9,169 +9,161 @@
     font-style: normal;
   }
 
-  .shortcut{
-    height: 34px;
-    line-height: 34px;
+ .shortcut{
+    height: 31px;
     background-color: #f1f1f1;
+    line-height: 31px;
+ } 
 
-  }
-
-  .wrapper{
-    width: 1200px;
-    margin: 0 auto;
-    border: 1px solid red;
-    height: 34px;
-  }
-.shortcut .flt_left{
-    float: left;
-}
-  .shortcut  .flt_left ul li {
-    float: left;
-    margin-right: 12px;
-  }
-
-  .shortcut ul li a{
-
-   
-  }
-
-  .shortcut ul li:last-child a:last-child{
-    color: #c81623;
-    margin-left: 10px;
-  }
-
-  .shortcut .flt_right{
-    float: right;
-  }
-
-  .shortcut .flt_right ul li{
-    float: left;
-  }
-
-
-  .shortcut .flt_right ul li i{
-    display: inline-block;
-    margin: -2px 10px;
-    /* line-height: 34px; */
-    width: 1px;
-    height: 12px;
-    background-color: #666666;
-  }
-  .shortcut .flt_right ul li:last-child i{
-    width: 0;
-    display: none;
-  }
-.bottom_arrow::after{
-    margin-left: 10px;
-    content:"\e91e";
-    font-family: "icomoon";
-}
-
-
- .header {
-    position: relative;
-    height: 105px;
-    background-color: pink;
+ .wrapper{
+  width: 1200px;
+  margin: 0 auto;
  }
 
- .header .logo{
-    position:absolute;
-    left: 1px;
-    top: 25px;
-    width: 175px;
-    height: 56px;
-    /* background-color: red; */
- }
-
- .header .logo a{
-    display: block;
-    overflow: hidden;
-    background-image: url(../images/logo.png);
-    background-size: contain;
-    width: 175px;
-    height: 56px;
-    /* font-size: 0; */
-    text-indent: -999px;
- }
-
- .header .search{
-    position:absolute;
-    left: 351px;
-    top: 25px;
-    background-color: purple;
- }
-
- .text{
+ .shortcut .fl{
   float: left;
-  width: 460px;
-  height: 39px;
-  border: 2px solid #b1191a;
-  /* outline: none; */
  }
- .text::placeholder{
-  padding-left: 12px;
-  color:#ccc;
- }
- .btn{
+
+ .shortcut .fl ul li{
   float: left;
-  width: 83px;
-  height: 39px;
-  background-color: #b1191a;
-  border: transparent;
+ }
+
+.shortcut .fl ul li:nth-child(2) a:first-child{
+  margin: 0 14px 0 6px;
+ }
+
+ .shortcut .fl ul li:nth-child(2) a:last-child{
+  color: #c81623;
+ }
+
+
+ .shortcut .fr{
+  float: right;
+ }
+
+ .shortcut .fr ul li{
+  float: left;
+ }
+
+ .shortcut .fr ul li:nth-child(even){
+  width: 1px;
+  height: 12px;
+  background-color: #666666;
+  margin: 10px 16px 0 18px;
+ }
+
+ .shortcut .fr ul li:last-child{
+  display: none;
+ }
+
+ .bottom_arrow_icon::after{
+  content:"\e91e";
+  font-family: "icomoon";
+  margin-left:5px;
+  font-size: 16px;
+  vertical-align: middle;
+ }
+
+ .header{
+  position:relative;
+  height: 105px;
+  /* background-color: pink; */
+ }
+
+ .logo{
+  overflow: hidden;
+  position:absolute;
+  left: 0;
+  top: 26px;
+  width: 175px;
+  height: 56px;
+ }
+ .logo h1{
+  width: 175px;
+  height: 56px;
+ }
+
+ .logo h1 a{
+  display:block;
+  width: 175px;
+  height: 56px;
+  /* background-color: transparent; */
+  background-image: url(../images/logo.png);
+  /* border: 1px solid #c81623; */
+  /* text-indent:-99px;
+  overflow:hidden; */
+  font-size: 0px;
+ } 
+ .search{
+  position: absolute;
+  left: 345px;
+  top: 26px;
+ }
+ .search .text{
+  float: left;
+  width: 454px;
+  height: 35px;
+  outline: none;
+  border:2px solid #c81623;
+ }
+ .search .text::placeholder{
+  padding-left: 7px;
+ }
+
+ .search .btn{
+  float: left;
+  width: 80px;
+  height: 35px;
+  background-color: #c81623;
+  border: 0;
   color: #fff;
  }
 
  .header .hotwords{
-  position: absolute;
-  left: 357px;
-  top: 69px;
+  position:absolute;
+  left: 356px;
+  top: 66px;
 
  }
 
  .header .hotwords a{
-  float: left;
   margin: 0 10px;
  }
  .header .hotwords a:hover{
-  color: #b1191a;
+  color:#c81623
  }
 
-.shopcar{
-  position:absolute;
-  left: 998px;
+ .header .shopcar{
+  position: absolute;
+  left: 995px;
   top: 26px;
   width: 142px;
-  height: 37px;
-  line-height: 37px;
+  height: 36px;
+  line-height: 36px;
   background-color: #f7f7f7;
   border: 1px solid #dfdfdf;
+ }
+.shopcar{
   text-align: center;
- }
- .car,.arrow{
   font-family: "icomoon";
-  
- }
 
- .car{
-  color: #b1191a;
-  margin-right: 5px;
  }
- .arrow{
-  font-size: 16px;
-  /* line-height: 25px; */
+ .right_arrow{
   vertical-align: middle;
-  margin-left: 10px;
+ }
+.car{
+  color: #c81623;
  }
 
- .count {
+ .count{
+  height: 14px;
+  line-height: 10px;
+  display: inline-block;
+  padding: 2px;
+  background-color: #c81623;
   position: absolute;
-  display: block;
-  left: 99px;
-  top: -10px;
-  height: 20px;
-  line-height: 8px;
-  background-color: #e60012;
+  left: 98px;
+  top: -6px;
   color: #fff;
-  border-radius: 8px 8px 8px 0;
-  padding: 6px;
-}
+  border-radius: 7px 7px 7px 0;
+ }
