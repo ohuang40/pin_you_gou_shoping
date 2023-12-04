@@ -312,7 +312,7 @@
   float: left;
   width: 200px;
   height: 186px;
-  background-color: pink;
+  /* background-color: pink; */
   padding: 20px 0  0 30px;
 }
 
@@ -335,4 +335,14 @@
 
 .module_help_app p{
   margin-left: 6px;
+}
+.module_copyright{
+  text-align: center;
+}
+.module_copyright p:first-child{
+  margin: 25px 0  15px 0;
+}
+
+.module_copyright p:nth-child(2){
+  line-height: 25px;
 }
