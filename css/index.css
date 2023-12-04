@@ -13,12 +13,7 @@
     background-color: blue;
   }
 
-  .newsflash{
-    float: right;
-    width: 250px;
-    height: 100%;
-    background-color: yellow;
-  }
+
 
   .focus img{
    width: 721px;
@@ -69,3 +64,142 @@
     background-color: #fff;
   }
 
+  .newsflash{
+    float: right;
+    width: 250px;
+    height: 100%;
+    /* background-color: yellow; */
+  }
+
+  .news{
+    height: 165px;
+    border: 1px solid #ccc;
+    /* background-color: pink; */
+  }
+
+
+
+  .bargain{
+    height: 75px;
+    margin-top: 5px;
+  }
+
+  .news_dt{
+    padding: 0 15px;
+    height: 35px;
+    border-bottom:1px dotted #ccc;
+    font-size: 14px;
+    line-height: 35px;
+
+  }
+
+  .news_dt a{
+    float: right;
+    font-size: 12px;
+  }
+  .news_dd{
+    height: 125px;
+    padding: 10px 0 0 15px;
+  }
+
+  .news_dd li{
+    height: 22px;
+  }
+
+  .lifeservice{
+    height: 210px;
+    /* background-color: purple; */
+    border: 1px solid #ccc;
+    border-top:none;
+  }
+  .lifeservice li{
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .lifeservice li:nth-child(4n){
+    border-right: none;
+  }
+  .lifeservice li a{
+    display:block;
+    height: 100%;
+    text-align: center;
+    overflow:hidden;
+  }
+  .lifeservice li i{
+      margin: 10px auto;
+      display:block;
+      width: 24px;
+      height: 24px;
+      background-image: url(../images/icons.png);
+      
+    /* background-color: pink; */
+
+  }
+
+  .huafei{
+    background-position: -15px -16px;
+  }
+
+
+  .jipiao{
+    background-position: -80px -16px;
+  }
+
+
+  .dianyingpiao{
+    background-position: -141px -16px;
+  }
+
+
+  .youxi{
+    background-position: -206px -16px;
+  }
+
+
+
+  .caipiao{
+    background-position: -15px -86px;
+  }
+  .jiayouka{
+    background-position: -79px -86px;
+  }
+
+.jiudian{
+    background-position: -142px -86px;
+}
+  .huochepiao{
+    background-position: -206px -86px;
+  }
+
+
+  .zhongchou{
+    background-position: -17px -159px;
+  }
+
+  .licai{
+    background-position: -79px -159px;
+  }
+
+  .lipinka{
+    background-position: -142px -159px;
+  }
+
+  .baitiao{
+    background-position: -207px -159px;
+  }
+
+  .lifeservice .hot{
+    position:absolute;
+    right: 0;
+    top: 0;
+    width: 12px;
+    height: 15px;
+    /* background-color: red; */
+    background-image: url(../images/jian.jpg);
+    background-size: contain;
+  }
