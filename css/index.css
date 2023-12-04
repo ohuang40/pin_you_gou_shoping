@@ -1,0 +1,71 @@
+.main{
+    width: 980px;
+    height: 455px;
+    margin-left: 227px;
+    margin-top:10px;
+  }
+
+  .focus{
+    position: relative;
+    float: left;
+    width: 720px;
+    height: 100%;
+    background-color: blue;
+  }
+
+  .newsflash{
+    float: right;
+    width: 250px;
+    height: 100%;
+    background-color: yellow;
+  }
+
+  .focus img{
+   width: 721px;
+  }
+
+  .arrow_left,.arrow_right{
+    position:absolute;
+ 
+    /* margin-top: -22px; */
+    transform:translate(0,-50%);
+    width: 24px;
+    height: 45px;
+    line-height:45px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .4);
+    color: #fff;
+  }
+
+  .arrow_left{
+    left: 0;
+    top: 50%;
+  }
+
+  .arrow_right{
+    right: 0;
+    top: 50%;
+  }
+
+  .circle{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform:translate(-50%,0);
+  }
+
+  .circle li {
+    float: left; 
+    width: 8px;
+    height: 8px;
+    margin:0 6px;
+    border: 2px solid rgba(255, 255, 255, .7);
+    /* background-color: pink; */
+    border-radius: 50%;
+    cursor:pointer;
+  }
+
+  .active{
+    background-color: #fff;
+  }
+
